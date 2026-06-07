@@ -1,0 +1,51 @@
+{
+  "url": "http://127.0.0.1:8787/api/launcher/config",
+  "payload": {
+    "title": "小池冒险岛登录器",
+    "notice": "欢迎来到小池冒险岛，选择线路后即可进入游戏。",
+    "announcements": [
+      "欢迎来到小池冒险岛，选择线路后即可进入游戏。",
+      "公告、线路、倍率、QQ群和赞助充值都可以从远程配置更新。"
+    ],
+    "website": "",
+    "qq_group_url": "327321366",
+    "sponsor_url": "",
+    "rates": {
+      "经验": "15倍",
+      "爆率": "5倍",
+      "金币": "5倍"
+    },
+    "lines": [
+      {
+        "key": "line1",
+        "name": "一线",
+        "description": "推荐线路",
+        "host": "127.0.0.1",
+        "login_port": 9595,
+        "channel_start_port": 7576,
+        "channel_count": 3,
+        "mall_port": 8600
+      },
+      {
+        "key": "line2",
+        "name": "二线",
+        "description": "备用线路",
+        "host": "127.0.0.1",
+        "login_port": 9595,
+        "channel_start_port": 7576,
+        "channel_count": 3,
+        "mall_port": 8600
+      },
+      {
+        "key": "line3",
+        "name": "三线",
+        "description": "备用线路",
+        "host": "127.0.0.1",
+        "login_port": 9595,
+        "channel_start_port": 7576,
+        "channel_count": 3,
+        "mall_port": 8600
+      }
+    ]
+  }
+}
