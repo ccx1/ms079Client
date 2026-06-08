@@ -7,6 +7,7 @@
   "website": "",
   "qq_group_url": "721437713",
   "sponsor_url": "",
+  "inject_dll_enabled": true,
   "rates": {
     "经验": "2倍",
     "爆率": "2倍",
